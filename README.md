@@ -22,16 +22,6 @@
   - сохранение весов и визуализация кривой обучения;
   - финальный запуск генерации и вывод результата.
 
-### Запуск обучения и генерации
-
-python main.py \
-  --csv_path corrected.csv \
-  --model_name google-bert/bert-base-uncased \
-  --epochs 25 \
-  --batch_size 4 \
-  --lr 1e-6 \
-  --warmup_steps 200
-
 ### Пример результата
 the dragon eats prey
 
